@@ -78,11 +78,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             });
         }
-        function pauseAllVideos() {
-            videos.forEach(function (video, index) {
-                pauseVideo(index);
-            });
-        }
         function showPlayButton(index) {
             playButtons[index].style.display = 'block';
         }

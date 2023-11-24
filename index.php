@@ -2,7 +2,7 @@
 /*
 Template Name: My Custom Template
 */
-get_header(); // подключение хедера WordPress
+get_header();
 ?>
     <div class="wrapper">
         <div class="header-wrapper">

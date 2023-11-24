@@ -15,7 +15,6 @@ body {
     margin: 0 auto;
     font-family: Gilroy-light;
 }
-
 .wrapper {
     width: 100%;
     padding-bottom: 100px;
@@ -304,8 +303,6 @@ a {
     height: auto;
     pointer-events: none;
 }
-
-
 .services-prices-module-wrapper {
     padding-top: 100px;
     display: flex;
@@ -395,8 +392,6 @@ a {
     max-height: 1000px; /* Выберите достаточно большое значение */
     transition: max-height 0.3s ease-in;
 }
-
-
 .popup {
     display: none;
     position: fixed;
@@ -407,7 +402,6 @@ a {
     height: 100%;
     background: rgba(0, 0, 0, 0.7);
 }
-
 .popup-content {
     position: absolute;
     top: 50%;
@@ -417,7 +411,6 @@ a {
     padding: 100px;
     width: 55vw
 }
-
 .close {
     position: absolute;
     top: 24px;
@@ -472,13 +465,10 @@ a {
     background: #FFE588;
     color: #2E2E2E;
 }
-
-/* Стили для бургер-иконки */
 .burger-icon {
-    display: none; /* По умолчанию скрыто на десктопе */
+    display: none;
     cursor: pointer;
 }
-
 .burger-icon span {
     display: block;
     height: 2px;
@@ -486,15 +476,13 @@ a {
     background-color: #333;
     margin: 5px 0;
 }
-
-/* Стили для мобильного меню */
 .mobile-menu {
-    display: none; /* По умолчанию скрыто на десктопе */
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
     height: 100vh;
-    width: 80%; /* Ширина меню */
+    width: 80%;
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -512,8 +500,6 @@ a {
 .header-burger-menu {
     display: none;
 }
-
-
 @media only screen and (max-width: 1420px) {
     .header-wrapper {
         background-color: #FFFFFF;
@@ -560,13 +546,11 @@ a {
         width: 12.71vw;
     }
 }
-
 @media only screen and (max-width: 1020px) {
     .header-mobile {
         display: none;
     }
 }
-
 @media only screen and (max-width: 768px){
     .header-mobile {
         display: flex;
