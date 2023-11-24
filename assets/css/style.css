@@ -82,7 +82,7 @@ a {
 .header-menu-element:hover {
     color: #CCA828;
 }
-.first-block-container, .slider-wrapper {
+.main-block-container, .slider-wrapper {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -689,7 +689,7 @@ a {
     .header-mobile-lang {
         display: none;
     }
-    .first-block-container {
+    .main-block-container {
         width: 100%;
         padding: 40px 0 40px 30px;
         gap: 40px;
@@ -804,7 +804,7 @@ a {
         font-size: 14px;
         line-height: 20px;
     }
-    .first-block-container {
+    .main-block-container {
         width: 100%;
         padding: 0;
         gap: 0;

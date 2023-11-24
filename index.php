@@ -41,7 +41,7 @@ get_header();
                 </div>
             </div>
         </div>
-        <div class="first-block-container">
+        <div class="main-block-container">
             <div class="main-block-content">
                 <div class="main-block-content-first">
                     <div class="icon-inst">

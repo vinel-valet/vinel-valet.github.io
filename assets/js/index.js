@@ -108,19 +108,19 @@ document.addEventListener('DOMContentLoaded', function() {
         openPopupBtns.forEach(function (btn) {
             btn.addEventListener("click", function () {
                 popup.style.display = "block";
-                document.body.classList.add("popup-open"); // Добавляем класс для отключения скроллинга
+                document.body.classList.add("popup-open");
             });
         });
 
         closePopupBtn.addEventListener("click", function () {
             popup.style.display = "none";
-            document.body.classList.remove("popup-open"); // Удаляем класс для включения скроллинга
+            document.body.classList.remove("popup-open");
         });
 
         window.addEventListener("click", function (event) {
             if (event.target === popup) {
                 popup.style.display = "none";
-                document.body.classList.remove("popup-open"); // Удаляем класс для включения скроллинга
+                document.body.classList.remove("popup-open");
             }
         });
     })();
